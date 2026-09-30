@@ -1,0 +1,6 @@
+{
+    "css.format.braceStyle": "expand",
+    "less.format.braceStyle": "expand",
+    "scss.format.braceStyle": "expand",
+    "C_Cpp.doxygen.generatedStyle": "/**"
+}

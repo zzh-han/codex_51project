@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__C51__",              // ← 告诉插件这是 Keil 项目
+                "bit=unsigned char",    // ← 让 bit 被识别
+                "sbit=unsigned char",   // ← 让 sbit 被识别
+                "sfr=unsigned char",    // ← 让 sfr 被识别
+                "code=const",           // ← 让 code 被识别（程序存储区）
+                "xdata=",               // ← 让 xdata 被识别（外部RAM）
+                "data="                 // ← 让 data 被识别（内部RAM）
+            ],
+            "compilerPath": "D:/Keil_v5/C51/BIN/C51.exe",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x64",
+            "configurationProvider": "cl.eide"
+        }
+    ],
+    "version": 4
+}
