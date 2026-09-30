@@ -9,7 +9,7 @@
 void main() {
     while (1)
     {
-        A_pos = 0;
+        /*A_pos = 0;
         A_neg = 1;
         B_pos = 0;
         B_neg = 0;
@@ -31,5 +31,5 @@ void main() {
         A_neg = 1;
         B_pos = 0;
         B_neg = 0;
-    }   
+    }*/   
 }
